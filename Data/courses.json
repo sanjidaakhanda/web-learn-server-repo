@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "http://placehold.it/32x32",
+    "course_id": "a",
+    "name": "Foregin Language",
+    "details": "Learning foregin language can always be challenging and overwhelming communication brings together people from various socities and traditional background ,and language is the medium for the same .a new language can always be useful,no matter which era you live in,so sign up for a course and start learning a new language. "
+  },
+  {
+    "id": 2,
+    "image": "http://placehold.it/32x32",
+    "course_id": "b",
+    "name": "Web Development",
+    "details": "Web  development or programmers are profesionals who design web pages.they write a series of codes called programs in different programing languages.so sign up for a course and start learning web development "
+  },
+  {
+    "id": 3,
+    "image": "http://placehold.it/32x32",
+    "course_id": "c",
+    "name": "Data Analytics",
+    "details": "The main aim of data analytics by helping you learn its core concepts and technologices incluing simple linear regression,prediction models,deep learning,machine learning.if would you like to join sign up for the data analytics course. "
+  },
+  {
+    "id": 4,
+    "image": "http://placehold.it/32x32",
+    "course_id": "d",
+    "name": "Data Engineering",
+    "details": "Our data Engeneerning course will provide you in-depth knowledge in SQL,Python,data Pipelines,datatransformation.sign up and join our team. "
+  },
+  {
+    "id": 5,
+    "image": "http://placehold.it/32x32",
+    "course_id": "e",
+    "name": "Cyber Security",
+    "details": "Cyber security consists of various technologies,practices and process that help in protecting a company devicess,da,programsand networks from any damage.,so sign up for a course and start journey with us. "
+  },
+  {
+    "id": 6,
+    "image": "http://placehold.it/32x32",
+    "course_id": "f",
+    "name": "Digital Marketing",
+    "details": "In this modern era, digital marketing is the best way of marketing and advertising numerous products and sevices of various companies.,so sign up and start a new journey. "
+  }
+]

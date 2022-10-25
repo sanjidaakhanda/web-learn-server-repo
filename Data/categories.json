@@ -1,0 +1,30 @@
+[
+  {
+    "id": "a",
+    "name": "Foregin Language"
+  },
+  {
+    "id": "b",
+    "name": "Web Development"
+  },
+  {
+    "id": "c",
+    "name": "Data Analytics"
+  },
+  {
+    "id": "d",
+    "name": "Data Engineering"
+  },
+  {
+    "id": "e",
+    "name": "Cyber Security"
+  },
+  {
+    "id": "f",
+    "name": "Digital Marketing"
+  },
+  {
+    "id": "g",
+    "name": "All Courses"
+  }
+]
