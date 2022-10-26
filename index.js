@@ -14,6 +14,9 @@ app.get("/", (req, res) => {
 app.get("/courses-categories", (req, res) => {
   res.send(categories);
 });
+app.get("/courses", (req, res) => {
+  res.send(courses);
+});
 
 app.get("/courses/:id", (req, res) => {
   const id = req.params.id;
@@ -23,6 +26,13 @@ app.get("/courses/:id", (req, res) => {
 
 app.get("/category/:id", (req, res) => {
   const id = req.params.id;
+  if (id === "g") {
+    res.send(courses);
+  } else {
+    const coursesCategory = courses.filter((p) => p.course_id === id);
+    res.send(coursesCategory);
+  }
+
   const coursesCategory = courses.filter((p) => p.course_id === id);
   res.send(coursesCategory);
 });
