@@ -7,6 +7,8 @@ const Port = process.env.Port || 5000;
 
 const categories = require("./Data/categories.json");
 const courses = require("./Data/courses.json");
+const checkOut = require("./Data/checkOut.json");
+
 app.get("/", (req, res) => {
   res.send("now web learn is running");
 });
@@ -16,6 +18,10 @@ app.get("/courses-categories", (req, res) => {
 });
 app.get("/courses", (req, res) => {
   res.send(courses);
+});
+
+app.get("/checkOut", (req, res) => {
+  res.send(checkOut);
 });
 
 app.get("/courses/:id", (req, res) => {
@@ -32,9 +38,12 @@ app.get("/category/:id", (req, res) => {
     const coursesCategory = courses.filter((p) => p.course_id === id);
     res.send(coursesCategory);
   }
+});
 
-  const coursesCategory = courses.filter((p) => p.course_id === id);
-  res.send(coursesCategory);
+app.get("/checkOut/:id", (req, res) => {
+  const id = req.params.id;
+  const checkOutCategory = checkOut.find((p) => p.id === id);
+  res.send(checkOutCategory);
 });
 
 app.listen(Port, () => {
