@@ -5,7 +5,7 @@ app.use(cors());
 
 const Port = process.env.Port || 5000;
 
-const categories = require("./Data/categories.json");
+const category = require("./Data/categories.json");
 const courses = require("./Data/courses.json");
 const checkOut = require("./Data/checkOut.json");
 
@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/courses-categories", (req, res) => {
-  res.send(categories);
+  res.send(category);
 });
 app.get("/courses", (req, res) => {
   res.send(courses);
